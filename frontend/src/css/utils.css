@@ -1,0 +1,23 @@
+.shadow {
+    -webkit-box-shadow: 4px 6px 5px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 6px 5px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 6px 5px -3px rgba(0, 0, 0, 0.75);
+}
+
+.show-dropdown {
+    height: 176px;
+    overflow: hidden;
+}
+
+.hide-dropdown {
+    height: 0px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 1024px) {
+    .show-dropdown,
+    .hide-dropdown {
+        height: 0px;
+        overflow: visible !important;
+    }
+}

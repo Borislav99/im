@@ -1,0 +1,12 @@
+export const LOGIN_ACTION = "user/login";
+export const LOGIN_ROUTE = "/auth/login";
+export const REGISTER_ACTION = "user/register";
+export const REGISTER_ROUTE = "/auth/register";
+export const LOGOUT_ACTION = "user/logout";
+export const LOGOUT_ROUTE = "/auth/logout";
+export const GET_USER_DATA_ACTION = "/user/getUserData";
+export const GET_USER_DATA_ROUTE = "/profile";
+export const UPDATE_DETAILS_ACTION = "/user/profile";
+export const UPDATE_DETAILS_ROUTE = "/profile";
+export const UPDATE_PASSWORD_ACTION = "/user/password";
+export const UPDATE_PASSWORD_ROUTE = "/password";

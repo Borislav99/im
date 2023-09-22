@@ -1,0 +1,11 @@
+.multi-select__container input {
+    padding: 0.35rem 0 !important;
+}
+
+.multi-select__container div {
+    border-radius: 8px !important;
+}
+
+.multi-select__container input::placeholder {
+    color: rgb(107 114 128 / var(--tw-placeholder-opacity)) !important;
+}
